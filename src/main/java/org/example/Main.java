@@ -14,6 +14,11 @@ public class Main {
         catalogo.add(new Episodio("Diseño 3D - Intro", 45));
         catalogo.add(new Episodio("Animacion",60));
         catalogo.add(new Episodio("Texturas", 50));
+        catalogo.add(new Episodio("Nombre1", 60));
+        catalogo.add(new Episodio("Nombre2", 60));
+        catalogo.add(new Episodio("Nombre3", 60));
+        catalogo.add(new Episodio("Nombre4", 60));
+        catalogo.add(new Episodio("Nombre5", 60));
 
         // 2 MEDICION DE TIEMPO
         // Usamos 'long' por que los milisegundos son desde 1970 forman un numero

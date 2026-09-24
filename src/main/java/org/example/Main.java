@@ -7,7 +7,8 @@ public class Main {
     static void main() {
 
         System.out.println("--- INICIANDO UDITVERSUM ---");
-
+        // MALA PRACTICA: Toda la logica de negocio tirada al Main.
+        // los diamantes <> obliga a que la lista solo acepte episodios
         ArrayList<Episodio> catalogo = new ArrayList();
 
         catalogo.add(new Episodio("Diseño 3D - Intro", 45));
